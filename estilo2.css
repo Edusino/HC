@@ -1,0 +1,215 @@
+@font-face {
+    font-family: "kollekif";
+    src: url(/fonts/kollektif/Kollektif-Bold.ttf);
+}
+body {
+    font-family: sans-serif;
+    margin: 0;
+}
+
+header {
+    height: 194px;
+    background-color: black;
+    justify-content: space-between;
+}
+
+header .titulo p {
+    font-family: "kollekif";
+    font-size: 45px;
+    text-align: center;
+    margin-top: -100px;
+}
+
+header .logo {
+    padding-top: 40px;
+   
+}
+
+.div {
+    font-family: arial;
+    background: #e8e8e8;
+}
+
+.enlaces .menu ul {
+    list-style: none;
+    padding: 0;
+    width: 50%;
+    max-width: 100pxpx;
+    margin: auto;
+}
+.menu li a {
+    text-decoration: none;
+    color: black;
+    padding: 5px;
+    display: block;
+    font-size: 30px;
+    padding-left: 35px;
+    font-family: "kollekif";
+}
+
+.menu li {
+    display: inline-block;
+    text-align: center;
+}
+
+.menu li a:hover {
+    background: #ef8354 ;
+}
+
+.container {
+    position: absolute;
+    left: 75%;
+    top: 37%;
+    transform: translate(-50%,-50%);
+    -webkit-transform: translate(-50%,-50%);
+    -moz-transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    -o-transform: translate(-50%,-50%);
+    padding: 10px;
+}
+
+input {
+    outline: none;
+    box-sizing: border-box;
+    height: 30px;
+    width: 0;
+    padding: 0 100px;
+    color: #000;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+    font-size: 20px;
+    border: 1px solid black;
+    transition: all .7s ease;
+}
+
+::placeholder {
+    color: grey;
+}
+
+.btn {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 45px;
+    height: 45px;
+    background: black;
+    line-height: 50px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    text-align: center;
+    cursor: pointer;
+    transition: .5s;
+    -webkit-transition: .5s;
+    -moz-transition: .5s;
+    -ms-transition: .5s;
+    -o-transition: .5s;
+}
+
+.btn {
+    font-size: 40px;
+    color: white;
+    line-height: 50px;
+    transition: all .7 ease;
+    -webkit-transition: all .7 ease;
+    -moz-transition: all .7 ease;
+    -ms-transition: all .7 ease;
+    -o-transition: all .7 ease;
+}
+
+.container:hover input {
+    width: 10px;
+}
+
+.container:hover i {
+    transform: rotate(-360deg);
+    -webkit-transform: rotate(-360deg);
+    -moz-transform: rotate(-360deg);
+    -ms-transform: rotate(-360deg);
+    -o-transform: rotate(-360deg);
+}
+
+.btn:hover {
+    background: red;
+}
+
+.carrito {
+    position: absolute;
+    background-color: white;
+    border: 2px white solid;
+    left: 120%;
+    top: 10%;
+    transform: translate(-50%,-50%);
+    -webkit-transform: translate(-50%,-50%);
+    -moz-transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    -o-transform: translate(-50%,-50%);
+    padding: auto;
+}
+
+.carrito:hover {
+    background-color: white;
+}
+
+.carrito img {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+}
+
+footer {
+    width: 1440px;
+    height: 288px;
+    background-color: black;
+}
+footer .titfooter {
+    font-family: "kollektif";
+    font-size: 30px;
+    text-align: center;
+    padding-top: 5px;
+}
+footer .teléfonos ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    font-family: "kollektif";
+    margin-left: 70px;
+    padding-top: 30px;
+}
+footer .teléfonos ul li {
+    padding-bottom: 10px;
+    font-size: 20px;
+}
+footer .rrss {
+    text-align: center;
+    margin-top: -90px;
+}
+footer .rrss a {
+    padding-left: 60px;
+    font-size: 50px;
+}
+footer .logo {
+    float: right;
+    margin-right: 80px;
+    margin-top: -50px;
+}
+.fa-facebook {
+    color: white;
+}
+.fa-instagram {
+    color: white;
+}
+.fa-tiktok {
+    color: white;
+}
+.fa-whatsapp {
+    color: white;
+}
+.fa-youtube {
+    color: white;
+}
